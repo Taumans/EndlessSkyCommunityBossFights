@@ -329,6 +329,7 @@ ship "Albatross" "Albatross (Shadow in the Depths II)" # rename if you wish
 ship "Ultra-Sick Turbo Flivver" "DO NOT"
 	outfits
 		"Infinite Sun Setting With Finality"
+		"Fist" 10
 		"Plasma Core"
 		"Crystal Capacitor"
 		"Ka'het Support Cooling"
