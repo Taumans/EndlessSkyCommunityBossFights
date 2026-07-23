@@ -1,0 +1,360 @@
+# Tau's StealthFox
+ship "Peregrine" "Great Fox"
+	outfits
+		"Heavy Ion Cyclotron" 5
+		"Inhibitor Turret" 2
+		"Jump Drive"
+		"Small Heat Shunt" 3
+		"Quantum Key Stone"
+		"White Sun Reactor"
+		"Bellows-Class Afterburner"
+		"Steering (Planetary Class)"
+		"Thruster (Lunar Class)"
+		"Tear of Skade"
+
+ship "Merganser" "Fox"
+	outfits
+		`"Sjeja" Kinetic Lance`
+		"High-Velocity Spike" 36
+		"High-Velocity Spike Rack"
+		"Jump Drive"
+		"Small Heat Shunt"
+		"Quantum Key Stone"
+		"Ka'het MHD Generator" 2
+		"Anvil-Class Engine"
+		"Bellows-Class Afterburner"
+
+#The Kailection
+ship "Marauder Falcon" "Marauder Falcon (Engines) (Far Star)" # rename if you wish
+	sprite "ship/mfalcone"
+	thumbnail "thumbnail/mfalcone"
+	add attributes
+		"engine capacity" 25
+	outfits
+		"A525 Atomic Steering"
+		"A860 Atomic Thruster"
+		"Boulder Reactor"
+		"Chameleon Anti-Missile" 2
+		"Fragmentation Grenades" 96
+		"Hai Chasm Batteries" 2
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		Hyperdrive
+		"Ion Cannon" 2
+		"Liquid Nitrogen Cooler"
+		"Outfits Expansion" 4
+		"Particle Cannon" 2
+		"Pulse Rifle" 96
+		"Pulse Turret" 2
+		"Tactical Scanner" 2
+	gun "Ion Cannon"
+	gun "Ion Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	turret "Chameleon Anti-Missile"
+	turret "Chameleon Anti-Missile"
+	turret "Pulse Turret"
+	turret "Pulse Turret"
+
+ship "Marauder Falcon" "Marauder Falcon (Engines) (Lightning)" # rename if you wish
+	sprite "ship/mfalcone"
+	thumbnail "thumbnail/mfalcone"
+	add attributes
+		"engine capacity" 25
+	outfits
+		`"Bondir" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		"Boulder Reactor"
+		Brig
+		"Caldera Afterburner"
+		"Cargo Scanner" 2
+		"Catalytic Ramscoop"
+		"Chameleon Anti-Missile" 2
+		"Electron Turret" 2
+		"Fragmentation Grenades" 96
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		Hyperdrive
+		"Outfit Scanner" 2
+		"Outfits Expansion" 4
+		"Particle Cannon" 4
+		"Pulse Rifle" 96
+		"Tactical Scanner" 2
+		"Volcano Afterburner"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	turret "Chameleon Anti-Missile"
+	turret "Chameleon Anti-Missile"
+	turret "Electron Turret"
+	turret "Electron Turret"
+
+ship "Marauder Falcon" "Marauder Falcon (Weapons) (Thunder)" # rename if you wish
+	sprite "ship/mfalconw"
+	thumbnail "thumbnail/mfalconw"
+	add attributes
+		"weapon capacity" 35
+	outfits
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Boulder Reactor"
+		Brig
+		"Catalytic Ramscoop"
+		"Fragmentation Grenades" 96
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		"Hai Williwaw Cooling" 2
+		"Heavy Laser Turret" 4
+		Hyperdrive
+		"Outfits Expansion" 4
+		"Plasma Cannon" 6
+		"Pulse Rifle" 96
+		"Tactical Scanner"
+	engine -16.5 143
+	engine 16.5 143
+	gun -16 -86.5 "Plasma Cannon"
+	gun 16 -86.5 "Plasma Cannon"
+	gun -19 -76.5 "Plasma Cannon"
+	gun 19 -76.5 "Plasma Cannon"
+	gun -24.5 -66.5 "Plasma Cannon"
+	gun 24.5 -66.5 "Plasma Cannon"
+	turret -16 -29 "Heavy Laser Turret"
+	turret 16 -29 "Heavy Laser Turret"
+	turret -50 39.5 "Heavy Laser Turret"
+	turret 50 39.5 "Heavy Laser Turret"
+
+ship "Marauder Falcon" "Marauder Falcon (Weapons) (Hailstorm)" # rename if you wish
+	sprite "ship/mfalconw"
+	thumbnail "thumbnail/mfalconw"
+	add attributes
+		"weapon capacity" 35
+	outfits
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Boulder Reactor"
+		Brig
+		"Catalytic Ramscoop"
+		"Chameleon Anti-Missile"
+		"Fragmentation Grenades" 96
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		Hyperdrive
+		"Liquid Nitrogen Cooler"
+		"Outfits Expansion" 4
+		"Particle Cannon" 6
+		"Pulse Rifle" 96
+		"Pulse Turret" 3
+		Supercapacitor
+		"Tactical Scanner"
+	gun -16 -86.5 "Particle Cannon"
+	gun 16 -86.5 "Particle Cannon"
+	gun -19 -76.5 "Particle Cannon"
+	gun 19 -76.5 "Particle Cannon"
+	gun -24.5 -66.5 "Particle Cannon"
+	gun 24.5 -66.5 "Particle Cannon"
+	turret -16 -29 "Chameleon Anti-Missile"
+	turret 16 -29 "Pulse Turret"
+	turret -50 39.5 "Pulse Turret"
+	turret 50 39.5 "Pulse Turret"
+
+ship "Marauder Falcon" "Marauder Falcon (Weapons) (Snowstorm)" # rename if you wish
+	sprite "ship/mfalconw"
+	thumbnail "thumbnail/mfalconw"
+	add attributes
+		"weapon capacity" 35
+	outfits
+		`"Bufaer" Atomic Steering`
+		"A520 Atomic Thruster"
+		"Boulder Reactor"
+		"Cargo Scanner"
+		"Catalytic Ramscoop"
+		"Chameleon Anti-Missile" 2
+		"Fragmentation Grenades" 96
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		"Hai Williwaw Cooling" 2
+		Hyperdrive
+		"Outfits Expansion" 4
+		"Pulse Rifle" 96
+		"Tactical Scanner"
+		"Tripulse Shredder" 6
+	engine -16.5 143
+	engine 16.5 143
+	gun -16 -86.5 "Tripulse Shredder"
+	gun 16 -86.5 "Tripulse Shredder"
+	gun -19 -76.5 "Tripulse Shredder"
+	gun 19 -76.5 "Tripulse Shredder"
+	gun -24.5 -66.5 "Tripulse Shredder"
+	gun 24.5 -66.5 "Tripulse Shredder"
+	turret -16 -29
+	turret 16 -29
+	turret -50 39.5 "Chameleon Anti-Missile"
+	turret 50 39.5 "Chameleon Anti-Missile"
+
+ship "Marauder Leviathan" "Marauder Leviathan (Engines) (Last Stand of Strength)" # rename if you wish
+	sprite "ship/mleviathane"
+	thumbnail "thumbnail/mleviathane"
+	add attributes
+		"engine capacity" 40
+	outfits
+		`"Bufaer" Atomic Steering`
+		`"Bufaer" Atomic Thruster`
+		"Boulder Reactor"
+		Brig
+		"Cargo Scanner"
+		"Catalytic Ramscoop"
+		"Fragmentation Grenades" 69
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		"Hai Octopus Jammer"
+		Hyperdrive
+		"Large Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		"Outfit Scanner"
+		"Outfits Expansion" 2
+		"Plasma Repeater" 4
+		"Pulse Rifle" 69
+		"Pulse Turret" 4
+		"Tactical Scanner"
+		"Water Coolant System"
+	gun "Plasma Repeater"
+	gun "Plasma Repeater"
+	gun "Plasma Repeater"
+	gun "Plasma Repeater"
+	turret "Pulse Turret"
+	turret "Pulse Turret"
+	turret "Pulse Turret"
+	turret "Pulse Turret"
+
+ship "Marauder Leviathan" "Marauder Leviathan (Weapons) (Seagust)" # rename if you wish
+	sprite "ship/mleviathane"
+	thumbnail "thumbnail/mleviathane"
+	add attributes
+		"weapon capacity" 35
+	outfits
+		`"Bondir" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		"Boulder Reactor"
+		"Catalytic Ramscoop"
+		"Chameleon Anti-Missile" 2
+		"Fragmentation Grenades" 69
+		"Hai Diamond Regenerator"
+		"Hai Gorge Batteries"
+		"Hai Octopus Jammer"
+		Hyperdrive
+		"Ion Cannon" 4
+		"Large Radar Jammer"
+		"Liquid Helium Cooler"
+		"Outfits Expansion" 2
+		"Proton Turret" 2
+		"Pulse Rifle" 69
+		"Quantum Keystone"
+		"Tactical Scanner"
+	gun "Ion Cannon"
+	gun "Ion Cannon"
+	gun "Ion Cannon"
+	gun "Ion Cannon"
+	turret "Proton Turret"
+	turret "Proton Turret"
+	turret "Chameleon Anti-Missile"
+	turret "Chameleon Anti-Missile"
+
+ship "Marauder Leviathan" "Marauder Leviathan (Engines) (Mighty Dreamer)" # rename if you wish
+	sprite "ship/mleviathane"
+	thumbnail "thumbnail/mleviathane"
+	add attributes
+		"weapon capacity" 35
+	outfits
+		`"Bondir" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		Brig
+		"Cargo Scanner"
+		"Catalytic Ramscoop"
+		"Fragmentation Grenades" 69
+		"Fusion Reactor"
+		"Hai Diamond Regenerator"
+		"Heavy Anti-Missile Turret" 2
+		Hyperdrive
+		"LP144a Battery Pack"
+		"Large Radar Jammer"
+		"Liquid Nitrogen Cooler"
+		"Outfits Expansion" 2
+		"Pulse Rifle" 69
+		"Pulse Turret" 2
+		"Small Radar Jammer"
+		"Tactical Scanner" 2
+		"Tripulse Shredder" 4
+	gun "Tripulse Shredder"
+	gun "Tripulse Shredder"
+	gun "Tripulse Shredder"
+	gun "Tripulse Shredder"
+	turret "Heavy Anti-Missile Turret"
+	turret "Heavy Anti-Missile Turret"
+	turret "Pulse Turret"
+	turret "Pulse Turret"
+
+ship "Albatross" "Albatross (Shadow in the Depths II)" # rename if you wish
+	outfits
+		"Blue Sun Reactor"
+		"Deuterium Slush Tank"
+		"Jump Drive"
+		"Ka'het Annihilator" 4
+		"Ka'het Annihilator Turret" 2
+		"Ka'het Ravager Beam" 2
+		"Ka'het Ravager Turret" 2
+		"Large Heat Shunt"
+		"Magnetic Scoop"
+		"Outfits Expansion" 6
+		"Point Defense Turret"
+		"Quantum Key Stone"
+		"Research Laboratory"
+		"Salvage Scanner"
+		"Tuning Rifle" 75
+		"Vareti Engine Block"
+		"White Sun Reactor"
+	gun
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Ravager Beam"
+	gun "Ka'het Ravager Beam"
+	gun "Ka'het Annihilator"
+	gun "Ka'het Annihilator"
+	turret "Ka'het Ravager Turret"
+	turret "Ka'het Ravager Turret"
+	turret "Ka'het Annihilator Turret"
+	turret "Ka'het Annihilator Turret"
+	turret "Point Defense Turret"
+
+ship "Ultra-Sick Turbo Flivver" "DO NOT"
+	outfits
+		"Infinite Sun Setting With Finality"
+		"Plasma Core"
+		"Crystal Capacitor"
+		"Ka'het Support Cooling"
+		"Fuel Processor"
+		"Large Steering Module"
+		"Crucible-Class Thruster"
+		"Bellows-Class Afterburner"
+		"Jump Drive"
+
+ship "Emerald Sword" "Infinite DFC"
+	outfits
+		"Dragonflame Cannon"
+		"Magnetic Scoop" 4
+		"Cryogenic Deuterium Tank" 3
+		"Refueling Module" 20
+		"Liquid Sodium Cooler" 2
+		"Electronic Warfare System" 2
+		"Large Heat Shunt"
+		"Jump Drive"
+		"Outfits Expansion" 3
+		"Aegis Shield Generator"
+		"Central Repair Hub" 2
+		"Crystal Capacitor"
+		"Singularity Core" 3
+		`Z-666 "Zap" Fusion Torch`
+		"Remass Injector"
+		"Inductive Extractor" 3
+		"Large Graviton Steering" 2
+		"Cloaking Device"

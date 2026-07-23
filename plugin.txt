@@ -1,0 +1,10 @@
+name "Community Boss Fights"
+version 1.0.0
+authors
+	Tau
+tags
+	missions
+about "Places hostile fleets in specific systems to test yourself against."
+about "Fleets sourced from Endless Sky Discord user favorite builds."
+about "https://github.com/Taumans/CommunityBossFights"
+about "plugins"

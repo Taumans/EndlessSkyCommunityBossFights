@@ -1,0 +1,3 @@
+government "Community Boss Fights"
+	swizzle 5
+	"player reputation" -1000

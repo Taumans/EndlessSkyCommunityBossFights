@@ -1,0 +1,87 @@
+mission "StealthFox"
+	description "Defeat Tau's StealthFox fleet at Gorvi"
+	non-blocking
+	transition
+	repeat
+	source
+		near "Sol" 100
+	destination "Earth"
+	to offer
+		not "StealthFox: active"
+	npc kill
+		government "Community Boss Fights"
+		personality hunting unconstrained merciful staying marked target tracked
+		system "Gorvi"
+		ship "Great Fox" "Great Fox"
+		ship "Fox" "Fox"
+		ship "Fox" "Peppy"
+		ship "Fox" "Falco"
+		ship "Fox" "Slippy"
+		on kill
+			payment 1000000
+			fail
+
+mission "The Kailection"
+	description "Defeat Kai's collection of heavies at Tortor"
+	non-blocking
+	transition
+	repeat
+	source
+		near "Sol" 100
+	destination "Earth"
+	to offer
+		not "The Kailection: active"
+	npc kill
+		government "Community Boss Fights"
+		personality hunting unconstrained merciful staying marked target tracked
+		system "Tortor"
+		ship "Marauder Falcon" "Marauder Falcon (Engines) (Far Star)" "Far Star"
+		ship "Marauder Falcon" "Marauder Falcon (Engines) (Lightning)" "Lightning"
+		ship "Marauder Falcon" "Marauder Falcon (Weapons) (Thunder)" "Thunder"
+		ship "Marauder Falcon" "Marauder Falcon (Weapons) (Hailstorm)" "Hailstorm"
+		ship "Marauder Falcon" "Marauder Falcon (Weapons) (Snowstorm)" "Snowstorm"
+		ship "Marauder Leviathan" "Marauder Leviathan (Engines) (Last Stand of Strength)" "Last Stand of Strength"
+		ship "Marauder Leviathan" "Marauder Leviathan (Engines) (Seagust)" "Seagust"
+		ship "Marauder Leviathan" "Marauder Leviathan (Engines) (Mighty Dreamer)" "Mighty Dreamer"
+		ship "Albatross" "Albatross (Shadow in the Depths II)" "Shadow in the Depths II"
+		on kill
+			payment 10000000
+			fail
+
+mission "DO NOT"
+	description "This is not a bounty, it is a warning. This is not a bit or a challenge. DO NOT ENTER THIS SYSTEM"
+	non-blocking
+	transition
+	repeat
+	source
+		near "Sol" 100
+	destination "Earth"
+	to offer
+		not "DO NOT: active"
+	npc kill
+		government "Community Boss Fights"
+		personality hunting unconstrained merciful staying marked target tracked
+		system "Is Il Z-814"
+		ship "Ultra-Sick Turbo Flivver" "DO NOT"
+		on kill
+			payment 1000000000
+			fail
+
+mission "Infinite DFC"
+	description "Defeat Kassandra Haruki's Emerald Sword"
+	non-blocking
+	transition
+	repeat
+	source
+		near "Sol" 100
+	destination "Earth"
+	to offer
+		not "Infinite DFC: active"
+	npc kill
+		government "Community Boss Fights"
+		personality hunting unconstrained merciful staying marked target tracked
+		system "Uwo Seija"
+		ship "Infinite DFC" "Kassandra Haruki"
+		on kill
+			payment 10000000
+			fail
