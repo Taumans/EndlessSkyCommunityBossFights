@@ -341,21 +341,23 @@ ship "Ultra-Sick Turbo Flivver" "DO NOT"
 
 ship "Emerald Sword" "Infinite DFC"
 	outfits
-		"Dragonflame Cannon"
-		"Magnetic Scoop" 4
-		"Cryogenic Deuterium Tank" 3
-		"Refueling Module" 20
-		"Liquid Sodium Cooler" 2
-		"Electronic Warfare System" 2
-		"Large Heat Shunt"
-		"Jump Drive"
-		"Outfits Expansion" 3
 		"Aegis Shield Generator"
+		"Anomalous Mass" 10
 		"Central Repair Hub" 2
+		"Cloaking Device"
+		"Cooling Module" 15
+		"Cryogenic Deuterium Tank" 3
 		"Crystal Capacitor"
+		"Dragonflame Cannon"
+		"Electronic Warfare System"
+		"Inductive Extractor" 3
+		"Jump Drive"
+		"Ka'het Reserve Accumulator"
+		"Large Graviton Steering" 2
+		"Magnetic Scoop" 4
+		"Outfits Expansion" 3
+		"Quantum Keystone"
+		"Refueling Module" 18
+		"Remass Injector"
 		"Singularity Core" 3
 		`Z-666 "Zap" Fusion Torch`
-		"Remass Injector"
-		"Inductive Extractor" 3
-		"Large Graviton Steering" 2
-		"Cloaking Device"
