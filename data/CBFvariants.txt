@@ -361,3 +361,43 @@ ship "Emerald Sword" "Infinite DFC"
 		"Remass Injector"
 		"Singularity Core" 3
 		`Z-666 "Zap" Fusion Torch`
+
+ship "Lor'kas Ik 577" "Burninator"
+	outfits
+		"Green Optical Laser" 3
+		"Korath Inferno" 4
+		"Heavy Rocket Pod" 2
+		"Heavy Rocket" 4
+		"Optical Lasing Generator"
+		"Refueling Module" 3
+		"Systems Core (Large)" 3
+		"Systems Core (Medium)"
+		"Jump Drive"
+		"Outfits Expansion" 30
+		"Dark Reactor" 2
+		"Reactor Limiter" 30
+		`Z-333 "Spark" Fusion Torch`
+		"Inductive Extractor" 
+		"Remass Injector" 2
+		"Steering (Stellar Class)" 2
+
+ship "Ra'gru Ik 618" "Get Shunted"
+	outfits
+		"Digger Mining Beam" 3
+		"Firelight Missile Bank" 2
+		"Firelight Missile" 40
+		"Grab-Strike Turret" 4
+		"Shunt-Strike Turret" 4
+		"Green Optical Laser" 2
+		"Optical Lasing Generator"
+		"Systems Core (Large)" 3
+		"Systems Core (Tiny)"
+		"Jump Drive"
+		"Liquid Sodium Cooler" 2
+		"Outfits Expansion" 9
+		"Magnetic Scoop"
+		"Blue Sun Reactor"
+		`"Ryuit" Fusion Core`
+		"Thruster (Stellar Class)"
+		"Steering (Stellar Class)"
+		"Steering (Planetary Class)"

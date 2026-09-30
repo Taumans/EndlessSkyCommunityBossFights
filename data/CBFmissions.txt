@@ -85,3 +85,23 @@ mission "Infinite DFC"
 		on kill
 			payment 10000000
 			fail
+
+mission "Longships"
+	description "Defeat the deadly Karek and Sapira duo"
+	non-blocking
+	transition
+	repeat
+	source
+		near "Sol" 100
+	destination "Earth"
+	to offer
+		not "Longships: active"
+	npc kill
+		government "Community Boss Fights"
+		personality hunting unconstrained merciful staying marked target tracked
+		system "Orbona"
+		ship "Lor'kas Ik 577" "Burninator"
+		ship "Ra'gru Ik 618" "Get Shunted"
+		on kill
+			payment 1000000
+			fail
